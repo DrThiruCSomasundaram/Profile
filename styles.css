@@ -1,1 +1,4 @@
 /* css styles */
+.callout-note .callout-title {
+  background-color: #ff5733; /* Change this to your desired color */
+}
