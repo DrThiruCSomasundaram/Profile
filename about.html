@@ -93,6 +93,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<style>
+  #toc-sidebar {
+    color: #000000;
+    background-color: white;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  #toc-sidebar .nav-link {
+    color: #000000 !important;
+    font-weight: 400;
+    padding: 0.3em 0;
+  }
+  
+  #toc-sidebar .nav-link:hover {
+    color: #000000 !important;
+    background-color: #f8f9fa;
+    text-decoration: underline;
+  }
+  
+  #toc-sidebar .nav-link.active {
+    color: #000000 !important;
+    font-weight: 600;
+    background-color: #f8f9fa;
+  }
+  
+  #toc-sidebar .nav-link.active::before {
+    content: "•";
+    color: #000000;
+    margin-right: 0.5em;
+  }
+
+  #toc-sidebar .toc-title {
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #000000;
+  }
+
+  /* Callout styles */
+  .callout {
+    padding: 0;
+    margin: 0;
+  }
+</style>
 
 
 </head>
