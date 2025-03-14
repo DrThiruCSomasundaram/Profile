@@ -21,6 +21,41 @@
     "text": "Student collaboration\n\nAmalie Moxness Restken\n\n\nKeerthanan, S.\n\n\nAnna Nordhagen\n\n\nSomasiri, G. D. P.\n\n\nJayawardena, W. J. C. M."
   },
   {
+    "objectID": "diet_calculator.html",
+    "href": "diet_calculator.html",
+    "title": "Diet and Composition Calculator",
+    "section": "",
+    "text": "This tool helps calculate various diet compositions and nutritional values. Select the type of calculation you want to perform below.\n\n\n\n\n\nListening on http://127.0.0.1:8878\n\n\n\n\n\n\n\n\n\nProtein Content\n\nUses the Kjeldahl method\nConversion factor: N × 6.25\nInput: Sample weight and nitrogen content\n\nFat Content\n\nUses Soxhlet extraction method\nInput: Sample weight and extracted fat weight\n\nCarbohydrate Content\n\nCalculated by difference\nFormula: 100% - (Protein% + Fat% + Ash% + Moisture%)\nInput: All other proximate components\n\nEnergy Content\n\nUses Atwater factors\nFormula: (Protein × 4) + (Fat × 9) + (Carbohydrate × 4)\nInput: Protein, fat, and carbohydrate contents\n\nAsh Content\n\nUses muffle furnace method\nInput: Sample weight and ash weight\n\nMoisture Content\n\nUses oven drying method\nInput: Sample weight and dry weight\n\n\n\n\n\n\nAll calculations are based on standard analytical methods\nResults are rounded to 2 decimal places\nEnergy content is calculated in kcal/100g\nAll other measurements are in percentage (%)"
+  },
+  {
+    "objectID": "diet_calculator.html#diet-composition-calculator",
+    "href": "diet_calculator.html#diet-composition-calculator",
+    "title": "Diet and Composition Calculator",
+    "section": "",
+    "text": "This tool helps calculate various diet compositions and nutritional values. Select the type of calculation you want to perform below.\n\n\n\n\n\nListening on http://127.0.0.1:8878\n\n\n\n\n\n\n\n\n\nProtein Content\n\nUses the Kjeldahl method\nConversion factor: N × 6.25\nInput: Sample weight and nitrogen content\n\nFat Content\n\nUses Soxhlet extraction method\nInput: Sample weight and extracted fat weight\n\nCarbohydrate Content\n\nCalculated by difference\nFormula: 100% - (Protein% + Fat% + Ash% + Moisture%)\nInput: All other proximate components\n\nEnergy Content\n\nUses Atwater factors\nFormula: (Protein × 4) + (Fat × 9) + (Carbohydrate × 4)\nInput: Protein, fat, and carbohydrate contents\n\nAsh Content\n\nUses muffle furnace method\nInput: Sample weight and ash weight\n\nMoisture Content\n\nUses oven drying method\nInput: Sample weight and dry weight\n\n\n\n\n\n\nAll calculations are based on standard analytical methods\nResults are rounded to 2 decimal places\nEnergy content is calculated in kcal/100g\nAll other measurements are in percentage (%)"
+  },
+  {
+    "objectID": "Activity.html",
+    "href": "Activity.html",
+    "title": "Academic activities update",
+    "section": "",
+    "text": "Abstract submitted to the International Congress of Nutrion of Internationa Union of Nutritional Sciences.\nTitle: Expert guidelines on improving the quality of published aquatic food nutrient composition data for their inclusion in FCTs, FCDs, and evidenced based nutritional plans, policies and programmes.\nAuthors: Thiruchenduran Somasundaram1; Rita Hannisdal2; Siân Astley3; Hettie Schönfeldt4; Ananthan Rajendran5; Doris Rittenschober6; Fernanda Grande6; Sitilitha Masangwi7; Kendra Byrd8; Christina Hicks9; Marian Kjellevold10; International Community Of Practice On Nutrient Composition Of Aquatic Foods11\n\n\n\n\nA brainstorming collaborative activity was carried out at Institute of Marine Research, Bergen from the 20th - 24th January, 2025 for the preparation of best practice checklist and guidance for producing aquatic food nutrient composition data. The activity was carried out between Dr. T C Somasundaram, Professor M Kjellevold, and Dr R Hannisdal\n\n\n\nA collaborative manuscript drafting workshop with the aquatic food composition database experts from America, Australia, Belgium, France, Ghana, India, Italy, Malawi, South Africa, Spain, and United Kingdom. This writing workshop lasted for four days from the 14th - 17th January. The sessions resulted in three draft future focused manuscripts.\n\n\n\nAn excellence in research award (1st place) was given to the entire team who participated in the FAO - EAF NANSEN project, conducting the ecosystem survey in Sri Lankan waters while on-board the R/V Dr Fridtjof Nansen at the event organised by Sri Lanka Council for Agricultural Research and Policy in Colombo, December 2024."
+  },
+  {
+    "objectID": "Activity.html#academic-activity-updates",
+    "href": "Activity.html#academic-activity-updates",
+    "title": "Academic activities update",
+    "section": "",
+    "text": "Abstract submitted to the International Congress of Nutrion of Internationa Union of Nutritional Sciences.\nTitle: Expert guidelines on improving the quality of published aquatic food nutrient composition data for their inclusion in FCTs, FCDs, and evidenced based nutritional plans, policies and programmes.\nAuthors: Thiruchenduran Somasundaram1; Rita Hannisdal2; Siân Astley3; Hettie Schönfeldt4; Ananthan Rajendran5; Doris Rittenschober6; Fernanda Grande6; Sitilitha Masangwi7; Kendra Byrd8; Christina Hicks9; Marian Kjellevold10; International Community Of Practice On Nutrient Composition Of Aquatic Foods11\n\n\n\n\nA brainstorming collaborative activity was carried out at Institute of Marine Research, Bergen from the 20th - 24th January, 2025 for the preparation of best practice checklist and guidance for producing aquatic food nutrient composition data. The activity was carried out between Dr. T C Somasundaram, Professor M Kjellevold, and Dr R Hannisdal\n\n\n\nA collaborative manuscript drafting workshop with the aquatic food composition database experts from America, Australia, Belgium, France, Ghana, India, Italy, Malawi, South Africa, Spain, and United Kingdom. This writing workshop lasted for four days from the 14th - 17th January. The sessions resulted in three draft future focused manuscripts.\n\n\n\nAn excellence in research award (1st place) was given to the entire team who participated in the FAO - EAF NANSEN project, conducting the ecosystem survey in Sri Lankan waters while on-board the R/V Dr Fridtjof Nansen at the event organised by Sri Lanka Council for Agricultural Research and Policy in Colombo, December 2024."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "acservices.html",
     "href": "acservices.html",
     "title": "Academic Services",
@@ -54,27 +89,6 @@
     "title": "Academic Services",
     "section": "Member",
     "text": "Member\nStatistical Society of Australia\nAustralian Institute of Food Science and Technologist"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "Activity.html",
-    "href": "Activity.html",
-    "title": "Academic activities update",
-    "section": "",
-    "text": "Abstract submitted to the International Congress of Nutrion of Internationa Union of Nutritional Sciences.\nTitle: Expert guidelines on improving the quality of published aquatic food nutrient composition data for their inclusion in FCTs, FCDs, and evidenced based nutritional plans, policies and programmes.\nAuthors: Thiruchenduran Somasundaram1; Rita Hannisdal2; Siân Astley3; Hettie Schönfeldt4; Ananthan Rajendran5; Doris Rittenschober6; Fernanda Grande6; Sitilitha Masangwi7; Kendra Byrd8; Christina Hicks9; Marian Kjellevold10; International Community Of Practice On Nutrient Composition Of Aquatic Foods11\n\n\n\n\nA brainstorming collaborative activity was carried out at Institute of Marine Research, Bergen from the 20th - 24th January, 2025 for the preparation of best practice checklist and guidance for producing aquatic food nutrient composition data. The activity was carried out between Dr. T C Somasundaram, Professor M Kjellevold, and Dr R Hannisdal\n\n\n\nA collaborative manuscript drafting workshop with the aquatic food composition database experts from America, Australia, Belgium, France, Ghana, India, Italy, Malawi, South Africa, Spain, and United Kingdom. This writing workshop lasted for four days from the 14th - 17th January. The sessions resulted in three draft future focused manuscripts.\n\n\n\nAn excellence in research award (1st place) was given to the entire team who participated in the FAO - EAF NANSEN project, conducting the ecosystem survey in Sri Lankan waters while on-board the R/V Dr Fridtjof Nansen at the event organised by Sri Lanka Council for Agricultural Research and Policy in Colombo, December 2024."
-  },
-  {
-    "objectID": "Activity.html#academic-activity-updates",
-    "href": "Activity.html#academic-activity-updates",
-    "title": "Academic activities update",
-    "section": "",
-    "text": "Abstract submitted to the International Congress of Nutrion of Internationa Union of Nutritional Sciences.\nTitle: Expert guidelines on improving the quality of published aquatic food nutrient composition data for their inclusion in FCTs, FCDs, and evidenced based nutritional plans, policies and programmes.\nAuthors: Thiruchenduran Somasundaram1; Rita Hannisdal2; Siân Astley3; Hettie Schönfeldt4; Ananthan Rajendran5; Doris Rittenschober6; Fernanda Grande6; Sitilitha Masangwi7; Kendra Byrd8; Christina Hicks9; Marian Kjellevold10; International Community Of Practice On Nutrient Composition Of Aquatic Foods11\n\n\n\n\nA brainstorming collaborative activity was carried out at Institute of Marine Research, Bergen from the 20th - 24th January, 2025 for the preparation of best practice checklist and guidance for producing aquatic food nutrient composition data. The activity was carried out between Dr. T C Somasundaram, Professor M Kjellevold, and Dr R Hannisdal\n\n\n\nA collaborative manuscript drafting workshop with the aquatic food composition database experts from America, Australia, Belgium, France, Ghana, India, Italy, Malawi, South Africa, Spain, and United Kingdom. This writing workshop lasted for four days from the 14th - 17th January. The sessions resulted in three draft future focused manuscripts.\n\n\n\nAn excellence in research award (1st place) was given to the entire team who participated in the FAO - EAF NANSEN project, conducting the ecosystem survey in Sri Lankan waters while on-board the R/V Dr Fridtjof Nansen at the event organised by Sri Lanka Council for Agricultural Research and Policy in Colombo, December 2024."
   },
   {
     "objectID": "index.html",
