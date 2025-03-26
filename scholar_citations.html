@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Somasundaram T C - Diet and Composition Calculator</title>
+<title>Somasundaram T C - Google Scholar Citations Downloader</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,6 +59,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 <style>
   /* Simple, readable theme */
   body {
@@ -184,11 +195,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#diet-composition-calculator" id="toc-diet-composition-calculator" class="nav-link active" data-scroll-target="#diet-composition-calculator">Diet Composition Calculator</a>
+  <li><a href="#google-scholar-citations-downloader" id="toc-google-scholar-citations-downloader" class="nav-link active" data-scroll-target="#google-scholar-citations-downloader">Google Scholar Citations Downloader</a>
   <ul class="collapse">
-  <li><a href="#select-calculation-type" id="toc-select-calculation-type" class="nav-link" data-scroll-target="#select-calculation-type">Select Calculation Type</a></li>
-  <li><a href="#calculation-methods" id="toc-calculation-methods" class="nav-link" data-scroll-target="#calculation-methods">Calculation Methods</a></li>
-  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes:</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -198,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Diet and Composition Calculator</h1>
+<h1 class="title">Google Scholar Citations Downloader</h1>
 </div>
 
 
@@ -213,67 +222,183 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="diet-composition-calculator" class="level2">
-<h2 class="anchored" data-anchor-id="diet-composition-calculator">Diet Composition Calculator</h2>
-<p>This tool helps calculate various diet compositions and nutritional values. Select the type of calculation you want to perform below.</p>
-<section id="select-calculation-type" class="level3">
-<h3 class="anchored" data-anchor-id="select-calculation-type">Select Calculation Type</h3>
+<section id="google-scholar-citations-downloader" class="level2">
+<h2 class="anchored" data-anchor-id="google-scholar-citations-downloader">Google Scholar Citations Downloader</h2>
+<p>This tool downloads citations from Google Scholar profiles of collaborators and converts them to RIS format.</p>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
+<div class="cell-output cell-output-stdout">
+<pre><code>Starting to process 70 collaborators</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
 <pre><code>
-Listening on http://127.0.0.1:5382</code></pre>
+Processing 1/70: Mr  A A Md Rizwan - Found 56 publications
+Processing 2/70: Dr  C Gunawardane
+Processing 3/70: Prof  KU Maheswari
+Processing 4/70: Dr  W Niroshan - Found 21 publications
+Processing 5/70: Dr  TS Mock - Found 21 publications
+Processing 6/70: Dr  T Prasad - Found 233 publications
+Processing 7/70: Dr  G J G Arachchi
+Processing 8/70: Dr  I Wickramasinghe - Found 261 publications
+Processing 9/70: Prof  KRD De Silva - Found 110 publications
+Processing 10/70: Prof  M Kjellevold - Found 175 publications
+Processing 11/70: Dr  I Aakre - Found 70 publications
+Processing 12/70: AsPr  DL Callahan - Found 120 publications
+Processing 13/70: Prof  PHP Prasanna - Found 100 publications
+Processing 14/70: Ms  A Nordhagen
+Processing 15/70: Dr  A M Reksten - Found 16 publications
+Processing 16/70: Dr  T Jayampathi - Found 6 publications
+Processing 17/70: Dr  S H Thilsted
+Processing 18/70: Dr  B Rajeswari
+Processing 19/70: Prof  DS Francis - Found 199 publications
+Processing 20/70: Ms  TP Hemachandra
+Processing 21/70: Dr  A Bøkevoll
+Processing 22/70: Dr  L M Pincus
+Processing 23/70: Prof  C Jayasinghe - Found 120 publications
+Processing 24/70: Prof  M Vithanage - Found 631 publications
+Processing 25/70: Prof  RPNP Rajapakse - Found 67 publications
+Processing 26/70: Prof  PA Paranagama - Found 240 publications
+Processing 27/70: Prof C Hicks - Found 159 publications
+Processing 28/70: Dr K Byrd - Found 65 publications
+Processing 29/70: Prof H Schönfeldt - Found 278 publications
+Processing 30/70: Prof M W Markhus - Found 64 publications
+Processing 31/70: Dr S Astley
+Processing 32/70: Dr R Hannisdal - Found 62 publications
+Processing 33/70: Ms D Rittenschober
+Processing 34/70: Dr K Fiorella - Found 97 publications
+Processing 35/70: Ms M Ahern - Found 47 publications
+Processing 36/70: Dr J Z Mason - Found 26 publications
+Processing 37/70: Dr E Maire - Found 48 publications
+Processing 38/70: Ms Y Nanjo
+Processing 39/70: Dr R Ananthan - Found 91 publications
+Processing 40/70: Ms S Masangwi
+Processing 41/70: Prof M Steiner-Asiedu
+Processing 42/70: Dr C Golden - Found 188 publications
+Processing 43/70: Dr F Grande
+Processing 44/70: Dr K Berk - Found 61 publications
+Processing 45/70: Dr M Moulder - Found 253 publications
+Processing 46/70: Prof D Lütjohann
+Processing 47/70: Dr J Spanner
+Processing 48/70: Dr N Liland - Found 47 publications
+Processing 49/70: Dr A Cojocaru - Found 20 publications
+Processing 50/70: Prof G Wiegertjes
+Processing 51/70: Dr K Soma - Found 118 publications
+Processing 52/70: Dr I Wijesekara - Found 139 publications
+Processing 53/70: Ms F Mojarradi - Found 2 publications
+Processing 54/70: Prof F Donsì - Found 223 publications
+Processing 55/70: Dr C J Liyanage - Found 14 publications
+Processing 56/70: Aquatic Foods
+Processing 57/70: Machine Learning
+Processing 58/70: EAF NANSEN Project
+Processing 59/70: NARA
+Processing 60/70: Master's Thesis
+Processing 61/70: Ph.D. Thesis
+Processing 62/70: Consultation
+Processing 63/70: One Food Systems
+Processing 64/70: ERASMUS Collarboration
+Processing 65/70: Dr Thiru C Somasundaram - Found 26 publications
+Processing 66/70: Dr Lone Hoj - Found 51 publications
+Processing 67/70: Dr Deepa Varkey - Found 29 publications
+Processing 68/70: Ms Sara Godinez-Espinosa
+Processing 69/70: Coral nutrition
+Processing 70/70: Dr W Jessie Suneetha - Found 82 publications</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+
+Processing complete!</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Saving citations to files...</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Saved citations for Mr  A A Md Rizwan
+Saved citations for Dr  W Niroshan
+Saved citations for Dr  TS Mock
+Saved citations for Dr  T Prasad
+Saved citations for Dr  I Wickramasinghe
+Saved citations for Prof  KRD De Silva
+Saved citations for Prof  M Kjellevold
+Saved citations for Dr  I Aakre
+Saved citations for AsPr  DL Callahan
+Saved citations for Prof  PHP Prasanna
+Saved citations for Dr  A M Reksten
+Saved citations for Dr  T Jayampathi
+Saved citations for Prof  DS Francis
+Saved citations for Prof  C Jayasinghe
+Saved citations for Prof  M Vithanage
+Saved citations for Prof  RPNP Rajapakse
+Saved citations for Prof  PA Paranagama
+Saved citations for Prof C Hicks
+Saved citations for Dr K Byrd
+Saved citations for Prof H Schönfeldt
+Saved citations for Prof M W Markhus
+Saved citations for Dr R Hannisdal
+Saved citations for Dr K Fiorella
+Saved citations for Ms M Ahern
+Saved citations for Dr J Z Mason
+Saved citations for Dr E Maire
+Saved citations for Dr R Ananthan
+Saved citations for Dr C Golden
+Saved citations for Dr K Berk
+Saved citations for Dr M Moulder
+Saved citations for Dr N Liland
+Saved citations for Dr A Cojocaru
+Saved citations for Dr K Soma
+Saved citations for Dr I Wijesekara
+Saved citations for Ms F Mojarradi
+Saved citations for Prof F Donsì
+Saved citations for Dr C J Liyanage
+Saved citations for Dr Thiru C Somasundaram
+Saved citations for Dr Lone Hoj
+Saved citations for Dr Deepa Varkey
+Saved citations for Dr W Jessie Suneetha</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Summary of downloaded citations:</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="diet_calculator_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+
+<div class="datatables html-widget html-fill-item" id="htmlwidget-88dc7177c589cd387079" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-88dc7177c589cd387079">{"x":{"filter":"none","vertical":false,"caption":"<caption>Summary of Downloaded Citations<\/caption>","data":[["Mr  A A Md Rizwan","Dr  W Niroshan","Dr  TS Mock","Dr  T Prasad","Dr  I Wickramasinghe","Prof  KRD De Silva","Prof  M Kjellevold","Dr  I Aakre","AsPr  DL Callahan","Prof  PHP Prasanna","Dr  A M Reksten","Dr  T Jayampathi","Prof  DS Francis","Prof  C Jayasinghe","Prof  M Vithanage","Prof  RPNP Rajapakse","Prof  PA Paranagama","Prof C Hicks","Dr K Byrd","Prof H Schönfeldt","Prof M W Markhus","Dr R Hannisdal","Dr K Fiorella","Ms M Ahern","Dr J Z Mason","Dr E Maire","Dr R Ananthan","Dr C Golden","Dr K Berk","Dr M Moulder","Dr N Liland","Dr A Cojocaru","Dr K Soma","Dr I Wijesekara","Ms F Mojarradi","Prof F Donsì","Dr C J Liyanage","Dr Thiru C Somasundaram","Dr Lone Hoj","Dr Deepa Varkey","Dr W Jessie Suneetha"],["Mr  A A Md Rizwan","Dr  W Niroshan","Dr  TS Mock","Dr  T Prasad","Dr  I Wickramasinghe","Prof  KRD De Silva","Prof  M Kjellevold","Dr  I Aakre","AsPr  DL Callahan","Prof  PHP Prasanna","Dr  A M Reksten","Dr  T Jayampathi","Prof  DS Francis","Prof  C Jayasinghe","Prof  M Vithanage","Prof  RPNP Rajapakse","Prof  PA Paranagama","Prof C Hicks","Dr K Byrd","Prof H Schönfeldt","Prof M W Markhus","Dr R Hannisdal","Dr K Fiorella","Ms M Ahern","Dr J Z Mason","Dr E Maire","Dr R Ananthan","Dr C Golden","Dr K Berk","Dr M Moulder","Dr N Liland","Dr A Cojocaru","Dr K Soma","Dr I Wijesekara","Ms F Mojarradi","Prof F Donsì","Dr C J Liyanage","Dr Thiru C Somasundaram","Dr Lone Hoj","Dr Deepa Varkey","Dr W Jessie Suneetha"],["1aVswOQAAAAJ","yZ1kDjUAAAAJ","FD4ns90AAAAJ","HePdafIAAAAJ","JbCVKLYAAAAJ","mRX1EPkAAAAJ","vf9g-F4AAAAJ","-iQW6jIAAAAJ","sv0TKUsAAAAJ","6YPeas8AAAAJ","oxQCF08AAAAJ","qo2j4fsAAAAJ","ZCBZ13IAAAAJ","4XbPt9QAAAAJ","jcCDYcIAAAAJ","IOffSFwAAAAJ","AFHh5eQAAAAJ","MXn9ep8AAAAJ","Stwf-5MAAAAJ","j1H1wE4AAAAJ","DhAz4WQAAAAJ","Wa2AMDgAAAAJ","chlyh-YAAAAJ","FE3A5dwAAAAJ","Ba4sZu4AAAAJ","ekV-6-8AAAAJ","7pZa8Y0AAAAJ","U7nbE_cAAAAJ","57GkPGoAAAAJ","0yBzGwgAAAAJ","hJQDTE8AAAAJ","7jmtL3QAAAAJ","LhF8F9sAAAAJ","nLMqVFgAAAAJ","b8fh_QUAAAAJ","nufhgoAAAAAJ","d8S--H4AAAAJ","gJy75NwAAAAJ","t56MK_cAAAAJ","Zx7A0XQAAAAJ","rhO5NLAAAAAJ"],[56,21,21,233,261,110,175,70,120,100,16,6,199,120,631,67,240,159,65,278,64,62,97,47,26,48,91,188,61,253,47,20,118,139,2,223,14,26,51,29,82]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Collaborator<\/th>\n      <th>Scholar_ID<\/th>\n      <th>Publications_Count<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Collaborator","targets":1},{"name":"Scholar_ID","targets":2},{"name":"Publications_Count","targets":3}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-</section>
-<section id="calculation-methods" class="level3">
-<h3 class="anchored" data-anchor-id="calculation-methods">Calculation Methods</h3>
+<section id="notes" class="level3">
+<h3 class="anchored" data-anchor-id="notes">Notes:</h3>
 <ol type="1">
-<li><strong>Protein Content</strong>
+<li><strong>Output Format</strong>:
 <ul>
-<li>Uses the Kjeldahl method</li>
-<li>Conversion factor: N × 6.25</li>
-<li>Input: Sample weight and nitrogen content</li>
+<li>Citations are saved in RIS format</li>
+<li>Each collaborator’s citations are saved in a separate file</li>
+<li>Files are named using the collaborator’s name (sanitized for file system)</li>
+<li>All files are saved in the <code>scholar_citations</code> directory</li>
 </ul></li>
-<li><strong>Fat Content</strong>
+<li><strong>RIS Format Fields</strong>:
 <ul>
-<li>Uses Soxhlet extraction method</li>
-<li>Input: Sample weight and extracted fat weight</li>
+<li>TY: Type of reference</li>
+<li>AU: Authors</li>
+<li>TI: Title</li>
+<li>PY: Publication year</li>
+<li>JO: Journal</li>
+<li>N1: Notes (including citation count)</li>
+<li>ER: End of record</li>
 </ul></li>
-<li><strong>Carbohydrate Content</strong>
+<li><strong>Processing</strong>:
 <ul>
-<li>Calculated by difference</li>
-<li>Formula: 100% - (Protein% + Fat% + Ash% + Moisture%)</li>
-<li>Input: All other proximate components</li>
+<li>Handles rate limiting and network errors</li>
+<li>Skips empty or invalid Scholar IDs</li>
+<li>Shows progress messages during processing</li>
+<li>Creates a summary table of results</li>
 </ul></li>
-<li><strong>Energy Content</strong>
+<li><strong>Usage</strong>:
 <ul>
-<li>Uses Atwater factors</li>
-<li>Formula: (Protein × 4) + (Fat × 9) + (Carbohydrate × 4)</li>
-<li>Input: Protein, fat, and carbohydrate contents</li>
-</ul></li>
-<li><strong>Ash Content</strong>
-<ul>
-<li>Uses muffle furnace method</li>
-<li>Input: Sample weight and ash weight</li>
-</ul></li>
-<li><strong>Moisture Content</strong>
-<ul>
-<li>Uses oven drying method</li>
-<li>Input: Sample weight and dry weight</li>
+<li>The script automatically processes all collaborators from the Excel file</li>
+<li>Results are saved to individual files</li>
+<li>A summary table shows the number of publications downloaded for each collaborator</li>
+<li>Failed processing attempts are logged and displayed</li>
 </ul></li>
 </ol>
-</section>
-<section id="notes" class="level3">
-<h3 class="anchored" data-anchor-id="notes">Notes</h3>
-<ul>
-<li>All calculations are based on standard analytical methods</li>
-<li>Results are rounded to 2 decimal places</li>
-<li>Energy content is calculated in kcal/100g</li>
-<li>All other measurements are in percentage (%)</li>
-</ul>
 
 
 </section>
